@@ -36,12 +36,12 @@ s.source = { :git => "https://github.com/seckovpero/Primer.git", :tag => "#{s.ve
 
 # 7
 s.framework = "UIKit"
-s.dependency 'Alamofire', '~> 2.0'
-s.dependency 'MBProgressHUD', '~> 0.9.0'
+s.dependency 'Masonry'
+#s.dependency 'MBProgressHUD', '~> 0.9.0'
 
 # 8
 s.source_files = "RWPickFlavor/**/*.{h}"
 
 # 9
-s.resources = "RWPickFlavor/**/*.{png,jpeg,jpg,storyboard,xib}"
+#s.resources = "RWPickFlavor/**/*.{png,jpeg,jpg,storyboard,xib}"
 end
