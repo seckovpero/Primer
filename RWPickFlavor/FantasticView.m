@@ -46,6 +46,7 @@
 }
 
 -(void)changeColors {
+    
     _timer = [NSTimer scheduledTimerWithTimeInterval:1.5 repeats:YES block:^(NSTimer * _Nonnull timer) {
         int rnd = arc4random_uniform([_colors count]);
         self.label1.backgroundColor = _colors[rnd];
