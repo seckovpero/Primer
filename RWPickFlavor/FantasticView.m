@@ -8,6 +8,7 @@
 
 #import "FantasticView.h"
 #import <Masonry/Masonry.h>
+#include <stdlib.h>
 
 @implementation FantasticView
 
@@ -49,10 +50,9 @@
 -(void)changeColors {
     
     _timer = [NSTimer scheduledTimerWithTimeInterval:1.5 repeats:YES block:^(NSTimer * _Nonnull timer) {
-        int rnd = arc4random_uniform([_colors count]);
-        self.label1.backgroundColor = _colors[rnd];
-        int rnd1 = arc4random_uniform([_colors count]);
-        self.label2.backgroundColor = _colors[rnd1];
+        _counter ++;
+        self.label1.backgroundColor = _colors[(_counter+1)%_colors.count];
+        self.label2.backgroundColor = _colors[(_counter)%_colors.count];
     }];
 }
 
