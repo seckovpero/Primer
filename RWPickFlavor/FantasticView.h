@@ -13,8 +13,10 @@
 @property (nonatomic,strong) UILabel *label1;
 @property (nonatomic,strong) UILabel *label2;
 @property (nonatomic,assign) int counter;
-@property (nonatomic,strong) NSMutableArray<UIColor *> colors;
+@property (nonatomic,strong) NSMutableArray<UIColor *> *colors;
 
 @property (nonatomic,strong) NSTimer *timer;
 
+-(void)changeColors;
+-(void)stopChangingColors;
 @end
