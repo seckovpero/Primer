@@ -16,11 +16,14 @@
     if (self) {
         [self setupViews];
         [self setupConstraints];
+        _counter = 0;
+        
     }
     return self;
 }
 
 -(void)setupViews {
+    
     self.label1 = [[UILabel alloc] init];
     self.label1.backgroundColor = [UIColor redColor];
     
@@ -42,4 +45,16 @@
     }];
 }
 
+-(void)changeColors {
+    _timer = [NSTimer scheduledTimerWithTimeInterval:1.5 repeats:YES block:^(NSTimer * _Nonnull timer) {
+        int rnd = arc4random_uniform([_colors count]);
+        self.label1.backgroundColor = _colors[rnd];
+        int rnd1 = arc4random_uniform([_colors count]);
+        self.label2.backgroundColor = _colors[rnd1];
+    }];
+}
+
+-(void)stopChangingColors {
+    [_timer invalidate];
+}
 @end
