@@ -17,7 +17,7 @@
         [self setupViews];
         [self setupConstraints];
         _counter = 0;
-        _colors = [NSMutableArray arrayWithObjects:[UIColor redColor],[UIColor greenColor],[UIColor yellowColor],[UIColor blueColor], nil]
+        _colors = [NSMutableArray arrayWithObjects:[UIColor redColor],[UIColor greenColor],[UIColor yellowColor],[UIColor blueColor], nil];
         
     }
     return self;
