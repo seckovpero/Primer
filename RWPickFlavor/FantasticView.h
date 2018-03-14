@@ -19,4 +19,5 @@
 
 -(void)changeColors;
 -(void)stopChangingColors;
+-(int)sumOfTwoNumbers:(int)first second:(int)second;
 @end

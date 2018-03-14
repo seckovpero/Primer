@@ -59,4 +59,8 @@
 -(void)stopChangingColors {
     [_timer invalidate];
 }
+
+-(int)sumOfTwoNumbers:(int)first second:(int)second {
+    return first + second;
+}
 @end
