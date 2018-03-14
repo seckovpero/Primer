@@ -31,7 +31,7 @@ s.homepage = "https://github.com/seckovpero/Primer"
 s.source = { :git => "https://github.com/seckovpero/Primer.git", :tag => "#{s.version}"}
 
 # For example,
-# s.source = { :git => "https://github.com/JRG-Developer/RWPickFlavor.git", :tag => "#{s.version}"}
+# s.source = { :path => "~/Desktop/RWPickFlavor.zip", :tag => "#{s.version}"}
 
 
 # 7
