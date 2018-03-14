@@ -40,7 +40,7 @@ s.dependency 'Masonry'
 #s.dependency 'MBProgressHUD', '~> 0.9.0'
 
 # 8
-s.source_files = "RWPickFlavor/**/*.{h}"
+s.source_files = "RWPickFlavor/**/*.{h,m}"
 
 # 9
 #s.resources = "RWPickFlavor/**/*.{png,jpeg,jpg,storyboard,xib}"
