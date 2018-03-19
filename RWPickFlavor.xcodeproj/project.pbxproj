@@ -9,8 +9,10 @@
 /* Begin PBXBuildFile section */
 		BD39794FD975411EF362EDB5 /* libPods-RWPickFlavor.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C7BFB78F07E242D49899F91 /* libPods-RWPickFlavor.a */; };
 		F445A810205823DC00A834FF /* RWPickFlavor.h in Headers */ = {isa = PBXBuildFile; fileRef = F445A80E205823DC00A834FF /* RWPickFlavor.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F445A818205824D500A834FF /* FantasticView.h in Headers */ = {isa = PBXBuildFile; fileRef = F445A816205824D500A834FF /* FantasticView.h */; };
+		F445A818205824D500A834FF /* FantasticView.h in Headers */ = {isa = PBXBuildFile; fileRef = F445A816205824D500A834FF /* FantasticView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F445A819205824D500A834FF /* FantasticView.m in Sources */ = {isa = PBXBuildFile; fileRef = F445A817205824D500A834FF /* FantasticView.m */; };
+		F4640493205FBBEB008EA286 /* Primer.h in Headers */ = {isa = PBXBuildFile; fileRef = F4640491205FBBEB008EA286 /* Primer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4640494205FBBEB008EA286 /* Primer.m in Sources */ = {isa = PBXBuildFile; fileRef = F4640492205FBBEB008EA286 /* Primer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		F445A80F205823DC00A834FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F445A816205824D500A834FF /* FantasticView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FantasticView.h; sourceTree = "<group>"; };
 		F445A817205824D500A834FF /* FantasticView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FantasticView.m; sourceTree = "<group>"; };
+		F4640491205FBBEB008EA286 /* Primer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Primer.h; sourceTree = "<group>"; };
+		F4640492205FBBEB008EA286 /* Primer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Primer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +82,8 @@
 				F445A80F205823DC00A834FF /* Info.plist */,
 				F445A816205824D500A834FF /* FantasticView.h */,
 				F445A817205824D500A834FF /* FantasticView.m */,
+				F4640491205FBBEB008EA286 /* Primer.h */,
+				F4640492205FBBEB008EA286 /* Primer.m */,
 			);
 			path = RWPickFlavor;
 			sourceTree = "<group>";
@@ -89,6 +95,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4640493205FBBEB008EA286 /* Primer.h in Headers */,
 				F445A810205823DC00A834FF /* RWPickFlavor.h in Headers */,
 				F445A818205824D500A834FF /* FantasticView.h in Headers */,
 			);
@@ -200,6 +207,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4640494205FBBEB008EA286 /* Primer.m in Sources */,
 				F445A819205824D500A834FF /* FantasticView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
