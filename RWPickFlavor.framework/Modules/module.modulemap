@@ -1,0 +1,6 @@
+framework module RWPickFlavor {
+  umbrella header "RWPickFlavor.h"
+
+  export *
+  module * { export * }
+}

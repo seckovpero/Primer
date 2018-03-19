@@ -8,7 +8,7 @@ s.summary = "RWPickFlavor lets a user select an ice cream flavor."
 s.requires_arc = true
 
 # 2
-s.version = "1.0.7"
+s.version = "1.1.0"
 
 # 3
 s.license = { :type => "MIT", :file => "LICENSE" }
@@ -28,8 +28,8 @@ s.homepage = "https://github.com/seckovpero/Primer"
 
 
 # 6 - Replace this URL with your own Git URL from "Quick Setup"
-s.source = { :http => "https://github.com/seckovpero/Primer/archive/1.1.0.zip"}
-
+s.source = { :http => "https://www.dropbox.com/s/9hq4gr8xsmnmth0/RWPickFlavor.zip?dl=0"}
+s.ios.vendored_frameworks = 'RWPickFlavor.framework'
 # For example,
 # s.source = { :path => "~/Desktop/RWPickFlavor.zip", :tag => "#{s.version}"}
 
@@ -40,7 +40,7 @@ s.dependency 'Masonry'
 #s.dependency 'MBProgressHUD', '~> 0.9.0'
 
 # 8
-s.source_files = "RWPickFlavor/**/*.{h,m}"
+#s.source_files = "RWPickFlavor/**/*.{h,m}"
 
 # 9
 #s.resources = "RWPickFlavor/**/*.{png,jpeg,jpg,storyboard,xib}"
