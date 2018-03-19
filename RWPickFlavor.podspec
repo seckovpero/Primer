@@ -28,7 +28,7 @@ s.homepage = "https://github.com/seckovpero/Primer"
 
 
 # 6 - Replace this URL with your own Git URL from "Quick Setup"
-s.source = { :git => "https://www.dropbox.com/s/y8dxwcmemomouih/RWPickFlavor.framework.zip?dl=0", :tag => "#{s.version}"}
+s.source = { :git => "https://www.dropbox.com/s/y8dxwcmemomouih/RWPickFlavor.framework.zip", :tag => "#{s.version}"}
 
 # For example,
 # s.source = { :path => "~/Desktop/RWPickFlavor.zip", :tag => "#{s.version}"}
